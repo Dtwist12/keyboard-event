@@ -12,7 +12,7 @@ let randomLetter = words[Math.floor(Math.random()* 26)];
 console.log(randomLetter);
 
 
-for(let i=0; i <randomLetter.length; i++) 
+//for(let i=0; i <randomLetter.length; i++) 
 
     document.body.addEventListener('keyup', function(event) {
         if(randomLetter=== event.key) {
